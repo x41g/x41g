@@ -35,9 +35,8 @@ We move fast to satisfy our clients; those who use us know.
 ---
 
 ## 🛠 Stack
-
 <p>
-<img src="https://skillicons.dev/icons?i=ts,react,nodejs,postgres,aws,docker" />
+<img src="https://skillicons.dev/icons?i=react,ts,nodejs,postgres,aws,docker" />
 </p>
 
 ---
