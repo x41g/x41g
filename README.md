@@ -14,7 +14,7 @@ Building digital solutions, and create utilities that people actually use.
 
 ---
 
-## 🧪 About
+## 🧪 About Us
 
 Luma Labz is a startup focused on building solutions for discord, exploring niches, and transforming ideas into reality.
 
@@ -37,14 +37,7 @@ We move fast to satisfy our clients; those who use us know.
 ## 🛠 Stack
 
 <p>
-<img src="https://skillicons.dev/icons?i=aws"/>
-<img src="https://skillicons.dev/icons?i=discordjs"/>
-<img src="https://skillicons.dev/icons?i=postgres"/>
-<img src="https://skillicons.dev/icons?i=nextjs"/>
-<img src="https://skillicons.dev/icons?i=ts"/>
-<img src="https://skillicons.dev/icons?i=react"/>
-<img src="https://skillicons.dev/icons?i=nodejs"/>
-
+<img src="https://skillicons.dev/icons?i=ts,react,nodejs,postgres,aws,docker" />
 </p>
 
 ---
