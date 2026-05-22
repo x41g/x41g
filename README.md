@@ -9,7 +9,7 @@ Building digital solutions, and create utilities that people actually use.
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/assets/luma-grid.svg" width="100%" alt="Luma Labz Banner" />
+  <img src="assets/luma-grid.svg" width="100%" alt="Luma Labz Banner" />
 </p>
 
 </div>
