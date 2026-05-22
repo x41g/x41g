@@ -2,15 +2,13 @@
 
 # ✨ Luma Labz
 
-Building digital solutions, and create utilities that people actually use.
+Building digital solutions and creating utilities people actually use.
 
-🧪 Solution • 💻 Development • 🤖 Bots and Automation • ⚡ Satisfaction
+🧪 Solution • 💻 Development • 🤖 Bots & Automation • ⚡ Satisfaction
 
 <br>
 
-<p align="center">
-  <img src="assets/luma-grid.svg" width="100%" alt="Luma Labz Banner" />
-</p>
+<img src="assets/luma-grid.svg" width="100%" />
 
 </div>
 
