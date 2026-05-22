@@ -1,138 +1,66 @@
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #050816; }
 
-<style>
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 74px;
+      font-weight: 900;
+      fill: #A855F7;
+      letter-spacing: 12px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      animation: titleGlow 2.2s infinite ease-in-out;
+    }
 
-.bg{
-fill:#050816;
-}
+    .slogan {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      fill: #D8B4FE;
+      letter-spacing: 8px;
+      text-anchor: middle;
+      animation: sloganGlow 3s infinite ease-in-out;
+    }
 
-.grid{
-fill:#0b1220;
-}
+    .square {
+      fill: #131b2d;
+      animation: gridPulse 4s infinite ease-in-out;
+    }
 
-.title{
+    @keyframes titleGlow {
+      0%, 100% { fill: #7C3AED; opacity: .85; }
+      50% { fill: #C084FC; opacity: 1; }
+    }
 
-font-family:system-ui;
-font-size:74px;
-font-weight:900;
+    @keyframes sloganGlow {
+      0%, 100% { opacity: .6; }
+      50% { opacity: 1; }
+    }
 
-fill:#7C3AED;
+    @keyframes gridPulse {
+      0%, 100% { fill: #131b2d; }
+      50% { fill: #7C3AED; }
+    }
+  </style>
 
-letter-spacing:12px;
+  <rect class="bg" width="100%" height="100%" />
 
-dominant-baseline:middle;
-text-anchor:middle;
+  <g transform="translate(75 58) scale(1.15)">
+    <rect class="square" x="0" y="0" width="12" height="12" />
+    <rect class="square" x="18" y="0" width="12" height="12" />
+    <rect class="square" x="36" y="0" width="12" height="12" />
 
-animation:titleGlow 2.2s infinite;
-}
+    <rect class="square" x="0" y="18" width="12" height="12" />
+    <rect class="square" x="18" y="18" width="12" height="12" />
+    <rect class="square" x="36" y="18" width="12" height="12" />
 
-.slogan{
+    <rect class="square" x="0" y="36" width="12" height="12" />
+    <rect class="square" x="18" y="36" width="12" height="12" />
+    <rect class="square" x="36" y="36" width="12" height="12" />
+  </g>
 
-font-family:system-ui;
-font-size:18px;
-font-weight:500;
+  <text class="title" x="450" y="105">LUMA LABZ</text>
 
-fill:#D6BCFF;
-
-letter-spacing:10px;
-
-text-anchor:middle;
-
-opacity:.9;
-
-animation:sloganGlow 3s infinite;
-}
-
-@keyframes titleGlow{
-
-0%,100%{
-fill:#7C3AED;
-
-filter:
-drop-shadow(0 0 8px #7C3AED)
-drop-shadow(0 0 18px #9333EA)
-drop-shadow(0 0 34px #A855F7);
-}
-
-50%{
-
-fill:#A855F7;
-
-filter:
-drop-shadow(0 0 14px #9333EA)
-drop-shadow(0 0 34px #A855F7)
-drop-shadow(0 0 52px #C084FC);
-
-}
-
-}
-
-@keyframes sloganGlow{
-
-0%,100%{
-opacity:.65;
-}
-
-50%{
-opacity:1;
-}
-
-}
-
-.square{
-
-fill:#131b2d;
-
-animation:gridPulse 4s infinite;
-}
-
-@keyframes gridPulse{
-
-50%{
-fill:#1b2340;
-}
-
-}
-
-</style>
-
-<rect class="bg" width="100%" height="100%"/>
-
-<!-- contribution squares -->
-<g transform="translate(75 58) scale(1.15)">
-
-<rect class="square" x="0" y="0" width="12" height="12"/>
-<rect class="square" x="18" y="0" width="12" height="12"/>
-<rect class="square" x="36" y="0" width="12" height="12"/>
-
-<rect class="square" x="0" y="18" width="12" height="12"/>
-<rect class="square" x="18" y="18" width="12" height="12"/>
-<rect class="square" x="36" y="18" width="12" height="12"/>
-
-<rect class="square" x="0" y="36" width="12" height="12"/>
-<rect class="square" x="18" y="36" width="12" height="12"/>
-<rect class="square" x="36" y="36" width="12" height="12"/>
-
-</g>
-
-<!-- título -->
-<text
-class="title"
-x="450"
-y="105">
-
-LUMA LABZ
-
-</text>
-
-<!-- slogan -->
-<text
-class="slogan"
-x="450"
-y="180">
-
-Q U E M &nbsp;&nbsp; U S A &nbsp;&nbsp; S A B E
-
-</text>
-
+  <text class="slogan" x="450" y="180">QUEM USA SABE</text>
 </svg>
